@@ -1,0 +1,70 @@
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.exe
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.pdb
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csprojResolveAssemblyReference.cache
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.Properties.Resources.resources
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csproj.GenerateResource.Cache
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.exe
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.pdb
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csproj.ResolveComReference.cache
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmSplash.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\Apitron.PDF.Controls.xml
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\Apitron.PDF.Rasterizer.xml
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmLogin.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmRegister.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmMain.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_Developer.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_System.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_UserAccount.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\acracs.ReportEngine.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\acschedule.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\MigraDoc.DocumentObjectModel.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\MigraDoc.Rendering.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\PdfSharp.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\acracs.ReportEngine.pdb
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\acschedule.pdb
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\de\MigraDoc.Rendering.resources.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_Loading.resources
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.exe.config
+C:\Users\Raben\Documents\Visual Studio 2012\Projects\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_dbconfiguration.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.exe.config
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\Interop.AcroPDFLib.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\AxInterop.AcroPDFLib.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csproj.ResolveComReference.cache
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.exe
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.pdb
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.exe
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\ACRACS - Client.pdb
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\MigraDoc.Rendering.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\PdfSharp.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\PdfSharp.Charting.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\acracs.ReportEngine.pdb
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\acschedule.pdb
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\Apitron.PDF.Controls.xml
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\Apitron.PDF.Rasterizer.xml
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\de\MigraDoc.Rendering.resources.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\de\PdfSharp.resources.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\Interop.AcroPDFLib.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csprojResolveAssemblyReference.cache
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_dbconfiguration.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_Developer.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_Loading.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmLogin.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmMain.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmRegister.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.frmSplash.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_System.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.form_UserAccount.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS___Client.Properties.Resources.resources
+D:\Backups\ACRACS - Client\ACRACS - Client\obj\Debug\ACRACS - Client.csproj.GenerateResource.Cache

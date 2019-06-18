@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B07002E-31FA-4CE3-AAEE-DA4346DF2C38}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACRACS___Client</RootNamespace>
+    <AssemblyName>ACRACS - Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="acracs.ReportEngine">
+      <HintPath>..\..\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acracs.ReportEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="acschedule">
+      <HintPath>..\..\acschedule\acschedule\bin\Debug\acschedule.dll</HintPath>
+    </Reference>
+    <Reference Include="Apitron.PDF.Controls">
+      <HintPath>..\..\..\..\..\Downloads\Apitron.PDF.Controls.NET_1.0.33.0\Microsoft.NET v4.0\Apitron.PDF.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Apitron.PDF.Rasterizer, Version=3.0.33.0, Culture=neutral, PublicKeyToken=6e759dbb0039406e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\Apitron.PDF.Controls.NET_1.0.33.0\Microsoft.NET v4.0 (ClientProfile)\Apitron.PDF.Rasterizer.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>D:\Applications\Net libraries and components\PdfSharp\Assemblies\GDI+\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>D:\Applications\Net libraries and components\PdfSharp\Assemblies\GDI+\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>D:\Applications\Net libraries and components\PdfSharp\Assemblies\GDI+\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form_dbconfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_dbconfiguration.Designer.cs">
+      <DependentUpon>form_dbconfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Developer.Designer.cs">
+      <DependentUpon>form_Developer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Loading.Designer.cs">
+      <DependentUpon>form_Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Login.Designer.cs">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Main.Designer.cs">
+      <DependentUpon>form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Register.Designer.cs">
+      <DependentUpon>form_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Splash.Designer.cs">
+      <DependentUpon>form_Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_System.Designer.cs">
+      <DependentUpon>form_System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_UserAccount.Designer.cs">
+      <DependentUpon>form_UserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form_dbconfiguration.resx">
+      <DependentUpon>form_dbconfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Developer.resx">
+      <DependentUpon>form_Developer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Loading.resx">
+      <DependentUpon>form_Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Login.resx">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Main.resx">
+      <DependentUpon>form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Register.resx">
+      <DependentUpon>form_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Splash.resx">
+      <DependentUpon>form_Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_System.resx">
+      <DependentUpon>form_System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_UserAccount.resx">
+      <DependentUpon>form_UserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\icon_database.ico" />
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
