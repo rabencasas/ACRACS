@@ -1,0 +1,15 @@
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\obj\Debug\acracs.ReportEngine.csprojResolveAssemblyReference.cache
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acracs.ReportEngine.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acracs.ReportEngine.pdb
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acschedule.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\MigraDoc.DocumentObjectModel.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\MigraDoc.Rendering.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\PdfSharp.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\PdfSharp.Charting.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acschedule.pdb
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\de\MigraDoc.DocumentObjectModel.resources.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\de\MigraDoc.Rendering.resources.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\de\PdfSharp.resources.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\de\PdfSharp.Charting.resources.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\obj\Debug\acracs.ReportEngine.dll
+c:\users\raben\documents\visual studio 2012\Projects\acracs.ReportEngine\acracs.ReportEngine\obj\Debug\acracs.ReportEngine.pdb

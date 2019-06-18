@@ -1,0 +1,8 @@
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\bin\Debug\ACRACS_Database_Configuration.exe
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\bin\Debug\ACRACS_Database_Configuration.pdb
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.csprojResolveAssemblyReference.cache
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.Form1.resources
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.Properties.Resources.resources
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.csproj.GenerateResource.Cache
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.exe
+c:\users\raben\documents\visual studio 2012\Projects\ACRACS_Database_Configuration\ACRACS_Database_Configuration\obj\Debug\ACRACS_Database_Configuration.pdb
