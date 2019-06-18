@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7153D78-4ADA-4BB9-9B9E-345DCA1D887B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACRACS___Schedule</RootNamespace>
+    <AssemblyName>ACRACS - Schedule</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="acracs.ReportEngine">
+      <HintPath>..\..\acracs.ReportEngine\acracs.ReportEngine\bin\Debug\acracs.ReportEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="acschedule">
+      <HintPath>..\..\..\Projects (Old)\acschedule\acschedule\bin\Debug\acschedule.dll</HintPath>
+    </Reference>
+    <Reference Include="Apitron.PDF.Controls">
+      <HintPath>D:\Applications\Net libraries and components\Apitron.PDF.Controls.NET_1.0.33.0\Microsoft.NET v4.0 (ClientProfile)\Apitron.PDF.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Apitron.PDF.Rasterizer">
+      <HintPath>D:\Applications\Net libraries and components\Apitron.PDF.Controls.NET_1.0.33.0\Microsoft.NET v4.0 (ClientProfile)\Apitron.PDF.Rasterizer.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>D:\Applications\Net libraries and components\PdfSharp\Assemblies\GDI+\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>D:\Applications\Net libraries and components\PdfSharp\Assemblies\GDI+\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form_AddClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AddClass.Designer.cs">
+      <DependentUpon>form_AddClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ConfigureConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ConfigureConnection.Designer.cs">
+      <DependentUpon>form_ConfigureConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Conflictclass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Conflictclass.Designer.cs">
+      <DependentUpon>form_Conflictclass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Developer.Designer.cs">
+      <DependentUpon>form_Developer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_dpd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_dpd.Designer.cs">
+      <DependentUpon>form_dpd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Instructors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Instructors.Designer.cs">
+      <DependentUpon>form_Instructors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Load.Designer.cs">
+      <DependentUpon>form_Load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Login.Designer.cs">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Main.Designer.cs">
+      <DependentUpon>form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Merger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Merger.Designer.cs">
+      <DependentUpon>form_Merger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Register.Designer.cs">
+      <DependentUpon>form_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ReportSection_option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ReportSection_option.Designer.cs">
+      <DependentUpon>form_ReportSection_option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Save.Designer.cs">
+      <DependentUpon>form_Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_sectionCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_sectionCourses.Designer.cs">
+      <DependentUpon>form_sectionCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Splash.Designer.cs">
+      <DependentUpon>form_Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_StatusUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_StatusUpdate.Designer.cs">
+      <DependentUpon>form_StatusUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_Unload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Unload.Designer.cs">
+      <DependentUpon>form_Unload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_UpdateClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_UpdateClass.Designer.cs">
+      <DependentUpon>form_UpdateClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_UserAccount.Designer.cs">
+      <DependentUpon>form_UserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Sections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Sections.Designer.cs">
+      <DependentUpon>frm_Sections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form_AddClass.resx">
+      <DependentUpon>form_AddClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ConfigureConnection.resx">
+      <DependentUpon>form_ConfigureConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Conflictclass.resx">
+      <DependentUpon>form_Conflictclass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Developer.resx">
+      <DependentUpon>form_Developer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_dpd.resx">
+      <DependentUpon>form_dpd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Instructors.resx">
+      <DependentUpon>form_Instructors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Load.resx">
+      <DependentUpon>form_Load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Login.resx">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Main.resx">
+      <DependentUpon>form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Merger.resx">
+      <DependentUpon>form_Merger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Register.resx">
+      <DependentUpon>form_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ReportSection_option.resx">
+      <DependentUpon>form_ReportSection_option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Save.resx">
+      <DependentUpon>form_Save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_sectionCourses.resx">
+      <DependentUpon>form_sectionCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Splash.resx">
+      <DependentUpon>form_Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_StatusUpdate.resx">
+      <DependentUpon>form_StatusUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_Unload.resx">
+      <DependentUpon>form_Unload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_UpdateClass.resx">
+      <DependentUpon>form_UpdateClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_UserAccount.resx">
+      <DependentUpon>form_UserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Sections.resx">
+      <DependentUpon>frm_Sections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\icon_database.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
